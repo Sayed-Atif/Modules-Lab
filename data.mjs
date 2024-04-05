@@ -2,7 +2,7 @@
 
 import Employee, { getName, getEmail, getPhone, fetchMe } from "./app.mjs";
 import { grabSprints } from "./sprint.mjs";
-import { getPhotos } from "./helper.mjs";
+import { getTenPhotos } from "./helper.mjs";
 
 let testEmployee = new Employee("Chester Tester", "@biz.gov", "000-000-0000");
 
@@ -12,5 +12,6 @@ console.log(getEmail(testEmployee));
 // ----------------------------------------[INSTANCES]
 fetchMe();
 grabSprints()
-getPhotos()
+// getPhotos()
+getTenPhotos();
 // ----------------------------------------[Initialized_Funcs()]
